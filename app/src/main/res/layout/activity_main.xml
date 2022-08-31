@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_wave__2_" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:background="@drawable/vien"
+            android:id="@+id/edittextuser"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:id="@+id/edittextpassword"
+            android:background="@drawable/vien"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Sign up"
+            android:id="@+id/buttondangnhap"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
